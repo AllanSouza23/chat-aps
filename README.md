@@ -16,14 +16,14 @@ create table user (
 );
 ```
 
-Após isto, configure a classe [Secrets.java]() com as credenciais criadas na instalação do postgres, deste modo validando a conexão.
+Após isto, configure a classe [Secrets.java](https://github.com/AllanSouza23/chat-aps/blob/main/chat-module/src/util/Secrets.java) com as credenciais criadas na instalação do postgres, deste modo validando a conexão.
 
 OBS: recomenda-se uso da IDE IntelliJ para continuidade dos testes
 
 ## Como utilizar
 
-- Depois de configurar o banco de dados, abra o código fonte e execute a classe [Server]();
-- Execute também a classe [Login]()
+- Depois de configurar o banco de dados, abra o código fonte e execute a classe [Server](https://github.com/AllanSouza23/chat-aps/blob/main/chat-module/src/server/Server.java);
+- Execute também a classe [Login](https://github.com/AllanSouza23/chat-aps/blob/main/chat-module/src/client/Login.java)
 - Após isto, volte para a IDE e clique no dropdown com o nome da classe `Login`, que estará localizado na parte superior da IDE, estando também a esquerda do botão `run`, e clique em `Edit Configurations...`:
 
 ![image](https://github.com/AllanSouza23/chat-aps/assets/64336814/fc91b080-15e4-47b9-8a73-37eb651b1e0b)
